@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(0, 102, 161);
+    border-radius: 10px;
+}
+span {
+    font-weight: bold;
+}
+p {
+    font-family: Arial;
+    line-height: 30px;
+}
+.container {
+    text-align: center;
+}
+.container .logo {
+    height: 200px;
+    width: 200px;
+}
+.container .banner {
+    width: 1300px;
+    height: 511px;
+}
+.painel-inicial, .painel-principal h1, .painel-corretores h2, .painel-corretores h2 {
+    background-color: rgb(0, 102, 161);
+    color: white;
+    border-radius: 5px;
+    margin: 15px auto;
+    width: 600px;
+    padding: 5px;
+    border: 3px solid black
+}
+.painel-inicial a {
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.painel-principal {
+    border-top: 5px solid rgb(0, 102, 161);
+    border-radius: 5px;
+}
+.painel-principal h2, .painel-principal span, .painel-corretores span {
+    color: rgb(0, 102, 161);
+}
+.painel-servicos {
+    background-color: rgb(0, 102, 161);
+    border-radius: 5px;
+    padding: 5px;
+}
+.painel-servicos h2, .painel-servicos p, .painel-servicos ul, .painel-contatos {
+    color: white;
+}
+.painel-servicos span, .painel-contatos span, .painel-contatos h3 {
+    color: yellow;
+}
+.painel-servicos p {
+    margin: 5px auto;
+    width: 600px;
+}
+.painel-servicos ul {
+    padding: 15px 0px;
+    font-weight: bold;
+    margin: 5px auto;
+    width: 300px;
+    list-style-type: circle;
+}
+.painel-corretores, .painel-corretores a {
+    border-bottom: 5px solid rgb(0, 102, 161);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.painel-corretores p {
+    padding-top: 15px;
+}
+.painel-contatos {
+    margin-top: 5px;
+    background-color: rgb(0, 102, 161);
+    border-radius: 15px;
+    padding: 5px;
+}
+.painel-contatos p {
+    background-color: black;
+}
+.painel-contatos a {
+    text-align: center;
+    background-color: rgb(161, 161, 161);
+    color: rgb(0, 0, 0);
+    border-radius: 3px; 
+    width: 300px;
+}
+.painel-contatos ul {
+    margin: 15px auto;
+    list-style-type: none;
+}
